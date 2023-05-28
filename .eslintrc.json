@@ -1,3 +1,36 @@
 {
-  "extends": "next/core-web-vitals"
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  // TODO: add when we replace all css styles to tailwind "plugin:react/recommended", "eslint:recommended", "plugin:@typescript-eslint/recommended"
+  "extends": ["prettier"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "react-hooks",
+    "@typescript-eslint",
+    "prettier",
+    "simple-import-sort",
+    "typescript-sort-keys"
+  ],
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    // "camelcase": "error",
+    "spaced-comment": "error",
+    "quotes": ["error"],
+    "no-duplicate-imports": "error",
+    // "no-console": ["error", { "allow": ["warn", "error", "info", "debug"] }],
+    // "no-undef": "error",
+    "simple-import-sort/imports": "warn",
+    "simple-import-sort/exports": "warn",
+    "typescript-sort-keys/string-enum": "error"
+  }
 }
