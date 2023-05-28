@@ -1,7 +1,7 @@
 import Navbar from "@/app/components/Navbar";
 
 import RestaurantHeader from "../../components/RestaurantHeader";
-import RestaurantNavBar from "../../components/RestaurantNavbar";
+import RestaurantNavBar from "../../components/RestaurantNavBar";
 
 const RestaurantMenu = () => {
   return (

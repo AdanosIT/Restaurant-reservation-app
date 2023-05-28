@@ -3,7 +3,7 @@ import Navbar from "@/app/components/Navbar";
 import RestaurantDescription from "../components/RestaurantDescription";
 import RestaurantHeader from "../components/RestaurantHeader";
 import RestaurantImages from "../components/RestaurantImages";
-import RestaurantNavBar from "../components/RestaurantNavbar";
+import RestaurantNavBar from "../components/RestaurantNavBar";
 import RestaurantRating from "../components/RestaurantRating";
 import RestaurantReservation from "../components/RestaurantReservation";
 import RestaurantReview from "../components/RestaurantReview";
