@@ -10,11 +10,9 @@ export default function Home() {
 
         <Header />
         <main>
-          {/* CARDS */}
           <div className="py-3 px-36 mt-10 flex flex-wrap justify-center">
             <RestaurantCard />
           </div>
-          {/* CARDS */}
         </main>
       </main>
     </main>
